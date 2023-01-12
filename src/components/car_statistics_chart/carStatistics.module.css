@@ -1,0 +1,91 @@
+.carStatistics{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 25px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+.carStatisticsWithDetails {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.carStatisticsWithDetails>span {
+    width: 30%;
+    min-width: 142px;
+    height: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #242731;
+    text-align: start;
+}
+
+.carStatisticsWithDetails>span+div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.carStatisticsWithDetails>span+div>section:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 50%;
+}
+
+.carStatisticsWithDetails>span+div>section:nth-of-type(2)>ul {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+   background-color: #F5F4F6;
+   border-radius: 10px;
+}
+
+.carStatisticsWithDetails>span+div>section:nth-of-type(2)>ul>li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 5px 5px;
+    color: #5F6165;
+    flex: 0 0 30.33%;
+    border-radius: 24px;
+    text-align: center;
+}
+
+.carStatisticsWithDetails>span+div>section:nth-of-type(2)>ul>li:first-of-type {
+    background: #FF764C;
+    color: #FFFFFF;
+
+}
+
+.carStatisticsWithDetails>span+div>section:first-of-type>span {
+    width: 64%;
+    min-width: 65px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5F6165;
+    text-align: start;
+}

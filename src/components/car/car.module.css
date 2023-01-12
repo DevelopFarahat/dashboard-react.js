@@ -1,0 +1,94 @@
+.carMincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    gap: 10px;
+    background: #FFFFFF;
+    border-radius: 16px;
+}
+
+.carMincontainer>.frame {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 21px;
+}
+
+.frame>section:nth-of-type(1),
+.frame>section:nth-of-type(3) {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+}
+
+.frame>section:nth-of-type(1)>span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    color: #242731;
+}
+
+.frame>section:nth-of-type(2) {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.frame>section:nth-of-type(2)>span {
+    width: 100%;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #72767C;
+    text-align: start;
+}
+
+.frame>section:nth-of-type(3)>div {
+    flex: 0 0 45%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+
+}
+
+.frame>section:nth-of-type(3)>div>span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #72767C;
+}
+
+.frame>section:nth-of-type(3)>div+span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;  
+    color: #242731;
+}
+.frame>section:nth-of-type(3)>div+span > span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #72767C;
+}

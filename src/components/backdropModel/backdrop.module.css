@@ -1,0 +1,40 @@
+.backgrop,
+.backgrop-hidden {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(4, 0, 0, .5);
+    z-index: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.backgrop>div {
+    flex: 0 0 5%;
+    align-self: flex-end;
+    padding: 10px;
+    min-width: 50px;
+    min-height: 50px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgb(53 53 53 / 10%);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    align-self: flex-start;
+    margin: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.backgrop-hidden {
+    display: none;
+}

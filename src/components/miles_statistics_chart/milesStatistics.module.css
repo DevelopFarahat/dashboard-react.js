@@ -1,0 +1,98 @@
+.milesChart {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px 25px;
+    background: #FFFFFF;
+    border-radius: 14px;
+}
+
+.milesChartWithDetails {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 15px;
+}
+
+.milesChartWithDetails>span {
+    width: 30%;
+    min-width: 142px;
+    height: 26px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #242731;
+    text-align: start;
+}
+
+.milesChartWithDetails>span+div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.milesChartWithDetails>span+div>section:first-of-type {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 0 0 30%;
+}
+
+.milesChartWithDetails>span+div>section:first-of-type>ul {
+    flex: 0 0 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    list-style-type: none;
+    padding: 0;
+    gap: 10px;
+}
+
+.milesChartWithDetails>span+div>section:first-of-type>ul>li {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 13px;
+    padding: 5px 5px;
+    color: #5F6165;
+    flex: 0 0 33.33%;
+    border-radius: 24px;
+}
+
+.milesChartWithDetails>span+div>section:first-of-type>ul>li:first-of-type {
+    background: #2884FF;
+    color: #FFFFFF;
+
+}
+
+.milesChartWithDetails>span+div>section:nth-of-type(2)>span {
+    width: 64%;
+    min-width: 65px;
+    height: 18px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    color: #5F6165;
+}
+.tooltipDot{
+    width:10px;
+    height: 10px;
+    background-color: green;
+    
+}

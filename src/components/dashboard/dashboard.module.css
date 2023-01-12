@@ -1,0 +1,152 @@
+.dashboardContainer {
+    width: 100%;
+    display: grid;
+}
+
+.carEngine {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    grid-auto-rows: minmax(266px, auto);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #F5F4F6;
+}
+
+.carEngine>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 60px;
+    border-radius: 14px;
+    background-color: #FFFFFF;
+}
+
+.carEngine>div:nth-of-type(1) {
+    background-color: #A162F7;
+}
+
+.carEngine>div>span {
+    min-width: 81px;
+    height: 31px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #242731;
+    ;
+    text-transform: capitalize;
+}
+
+.carEngine>div:first-of-type>span {
+    color: #FFFFFF;
+}
+
+.chartsContainer,
+.carsContainer {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+    grid-auto-rows: minmax(380px, auto);
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #F5F4F6;
+}
+
+.carsContainer {
+    grid-auto-rows: minmax(236px, auto);
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 27px;
+    gap: 10px;
+    background: #E1DFA4;
+    border-radius: 14px;
+}
+.car:nth-child(2){
+    background: #E3ECF1;
+}
+.car:nth-child(3){
+    background: #F4E3E5;
+}
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    width: 100%;
+}
+
+.head>span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #242731;
+    text-transform: capitalize;
+}
+
+.bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+}
+
+.bottom>span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26px;
+    color: #1F2128;
+    text-transform: capitalize;
+}
+
+.bottom>span+div {
+    width:  100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 105px;
+}
+
+.bottom>span+div>section {
+    flex: 0 0 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+.bottom>span+div>section > span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #72767C;
+    text-transform: capitalize;
+}
+.bottom>span+div> span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #72767C;
+    text-transform: capitalize;
+}

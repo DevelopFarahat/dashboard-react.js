@@ -1,0 +1,89 @@
+.bookingMainContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   /* padding: 20px;*/
+    background-color: #F5F4F6;
+}
+.bookingHeader{
+    display: flex;
+}
+.bookingHeader > span {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 39px;
+    color: #242731;
+    text-align: start;
+    padding: 20px;
+}
+
+.bookingControls {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 20px 0 20px;
+    width: 100%;
+    min-height: 44px;
+    gap:20px;
+
+}
+
+.bookingControls>section:first-child {
+    flex: 0 0 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 23px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 13px 32px;
+    background: #FFFFFF;
+    border-radius: 22.5px;
+}
+.bookingControls>section:nth-of-type(2) {
+    flex: 0 0 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 10px;
+    align-items: center;
+}
+
+.bookingControls>section:nth-of-type(2)>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 16%;
+    padding: 10px;
+    min-height: 23px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(53, 53, 53, 0.1);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.bookingControls>section:nth-of-type(2)>div:nth-child(2){
+    background-color: #A162F7;
+}
+.carModels{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(min(100%,325px),1fr));
+    grid-auto-rows: minmax(276px,auto);
+    gap:10px;
+    padding: 20px;
+    background-color: #F5F4F6;
+}
